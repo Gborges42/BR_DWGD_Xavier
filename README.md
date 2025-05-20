@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Execução do programa Brazilian Daily Weather Gridded Data (BR-DWGD)
 
 Este guia orienta sobre como configurar e executar o programa de obtenção de dados climáticos através da base de dados Xavier.  
