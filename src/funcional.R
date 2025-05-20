@@ -73,6 +73,7 @@ config.treatment = function(arq.config){
 # Função para criar diretórios de saída
 criar_diretorios = function(dir_saida, municipios_df){
   if(!dir.exists(dir_saida)) dir.create(dir_saida)
+  if(!dir.exists("tmp")) dir.create("tmp")
   
   estados_unicos = unique(municipios_df$estado)
   
